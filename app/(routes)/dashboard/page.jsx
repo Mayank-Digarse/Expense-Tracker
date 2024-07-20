@@ -39,7 +39,7 @@ function Dashboard() {
   }
 
   /**
-   * Used to get All expenses belong to users
+   * Used to get All expenses belong to the users 
    */
   const getAllExpenses=async()=>{
     const result=await db.select({
